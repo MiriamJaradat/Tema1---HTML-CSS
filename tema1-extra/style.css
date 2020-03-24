@@ -1,0 +1,44 @@
+.image{
+    border-radius: 50%;
+    width: 8cm;
+    height: 8cm;
+    border: 4px solid grey;
+    padding: 2px;
+    
+}
+
+.vertical-line{
+    border-left: 1px solid green;
+    height: 500px;
+    position: absolute;
+    left: 20%;
+    margin-left: -3px;
+    top: 0;
+}
+/*
+.main-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+.main-column-left {
+    float: left;
+    padding: 10px;
+}
+
+.main-column-right {
+    float: right;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
